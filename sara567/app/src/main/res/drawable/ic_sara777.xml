@@ -1,0 +1,45 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="512dp"
+    android:height="512dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <!-- Yellow Circle (exact size और position जैसा तुम्हारे Compose में) -->
+    <path
+        android:fillColor="#F7B500"
+        android:pathData="M132,256 a72,72 0 1,0 144,0 a72,72 0 1,0 -144,0 z" />
+
+    <!-- S (बिल्कुल वैसा ही size, weight और position) -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M232,185
+                         c-18,0 -32,14 -32,32 v16
+                         c0,18 14,32 32,32 h45
+                         c18,0 32,-14 32,-32 v-16
+                         c0,-18 -14,-32 -32,-32 h-34
+                         v18 h30 v6 h-44 v-24 h44 v6 h-30 z" />
+
+    <!-- Yellow line (ara के ठीक ऊपर – बिल्कुल वैसी ही) -->
+    <path
+        android:fillColor="#F7B500"
+        android:pathData="M250,238 h46 v6 h-46 z" />
+
+    <!-- ara (तीन अक्षर – नीचे, exact size और spacing) -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M255,252
+                         c-5,0 -9,4 -9,9 v10 c0,5 4,9 9,9 h11 c5,0 9,-4 9,-9 v-10 c0,-5 -4,-9 -9,-9 h-11 z
+                         M278,252
+                         c-5,0 -9,4 -9,9 v10 c0,5 4,9 9,9 h11 c5,0 9,-4 9,-9 v-10 c0,-5 -4,-9 -9,-9 h-11 z
+                         M301,252
+                         c-5,0 -9,4 -9,9 v10 c0,5 4,9 9,9 h11 c5,0 9,-4 9,-9 v-10 c0,-5 -4,-9 -9,-9 h-11 z" />
+
+    <!-- 777 (exact नीचे, size, spacing और offset जैसा Compose में है) -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M340,272 h15 l-7.5,-22 l-7.5,22 z
+                         M362,272 h12 v-22 h-12 z
+                         M382,272 h12 v-22 h-12 z
+                         M340,254 h54 v9 h-54 z" />
+
+</vector>
